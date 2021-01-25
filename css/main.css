@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin:0 auto;
+
+}
+.nav{
+    width: 960px;
+    height: auto;
+    background-color:burlywood;
+}
+
+.nav ul li{
+    list-style: none;
+    display:inline;
+}
+
+.nav ul li a{
+    display:inline-block;
+    padding:20px;
+    font-size:20px;
+    font-weight:bold;
+    color:darkblue;
+}
