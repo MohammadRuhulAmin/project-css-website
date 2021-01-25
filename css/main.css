@@ -140,3 +140,126 @@ header{
 .fa-address-book:hover{
     color:red;
 }
+.title{
+    font-size: 25px;
+    margin:10px;
+    text-align: center;
+}
+
+.contact{
+    background:burlywood;
+   
+    box-shadow: 0px 0px 10px #ccc;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+   
+   
+
+}
+.contact p{
+   
+    margin:5px;
+    
+   
+}
+
+.cont-icon{
+    float: left;
+}
+.cont-text{
+    float: left;
+    /* border:solid; */
+}
+.inputTag input{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px ;
+    width:60%;
+    
+    margin:5px;
+    border-radius: 5px;
+    background:burlywood;
+
+
+}
+
+.inputTag input:hover{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px ;
+    width:90%;
+   
+    margin:5px;
+    border-radius: 5px;
+    background:burlywood;
+
+
+}
+.inputTag textarea{
+    font-size: 20px;
+    margin: 25px;
+    background:burlywood;
+
+}
+.inputTag textarea:hover{
+    font-size: 20px;
+    margin: 25px;
+    background:burlywood;
+    width:90%;
+    font-weight: bold;
+    
+}
+
+.contact-form{
+  
+    height: auto;
+    margin:0 auto;
+    margin-top: 30px;
+    background:burlywood;
+
+}
+.contact-section{
+    margin: 20px;;
+}
+.inputTag button{
+    font-size: 20px;
+    width: 200px;
+    background-color: burlywood;
+    padding:15px;
+    margin:10px;
+    border-radius: 15px;
+    
+}
+.inputTag button:hover{
+    font-size: 20px;
+    width: 200px;
+    background-color: burlywood;
+    border: solid;
+    padding:15px;
+    margin:10px;
+    border-radius: 15px;
+    
+}
+footer{
+    width: 1200px;
+    margin:0 auto;
+    height: auto;
+    background-color: burlywood;
+    margin: 10px;;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  
+}
+.footer-icon i{
+   
+    font-size: 25px;
+    padding:20px;
+    
+}
+.footer-block{
+    display: inline-block;
+    text-align: center;
+    margin:25px;
+}
