@@ -17,6 +17,7 @@ header{
 .nav ul li{
     list-style: none;
     display:inline;
+    position: relative;
 }
 
 .nav ul li a{
@@ -25,4 +26,21 @@ header{
     font-size:20px;
     font-weight:bold;
     color:darkblue;
+    text-decoration:none;
+}
+
+.nav ul li a:hover{
+    background:red;
+    border:solid;
+    border-radius: 5px;;
+}
+.nav ul li ul{
+    position:absolute;
+    background-color: seagreen;
+    left: -9999px;
+
+}
+.nav ul li:hover ul{
+    left: 0px;
+    border: solid;
 }
